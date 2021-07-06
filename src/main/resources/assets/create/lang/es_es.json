@@ -635,7 +635,7 @@
 	"advancement.create.mechanical_arm": "¡Manos ocupadas!",
 	"advancement.create.mechanical_arm.desc": "Crea un brazo mecánico, selecciona las entradas y salidas, colócalo en el suelo y dale energía; luego observa cómo hace todo el trabajo por ti.",
 	"advancement.create.musical_arm": "¡Tócame la melodía!",
-	"advancement.create.musical_arm.desc": "Vea cómo un brazo mecánico maneja su Jukebox.",
+	"advancement.create.musical_arm.desc": "Vea cómo un brazo mecánico maneja su tocadiscos.",
 	"advancement.create.arm_many_targets": "Organize-o-Tron",
 	"advancement.create.arm_many_targets.desc": "Programa un brazo mecánico con diez o más posiciones de salida.",
 	"advancement.create.arm_blaze_burner": "Combust-o-Tron",
@@ -1218,10 +1218,10 @@
 
 	"_": "->------------------------]  Item Descriptions  [------------------------<-",
 
-	"item.create.example_item.tooltip": "EJEMPLO DE ITEM (sólo un marcador de que este tooltip existe)",
-	"item.create.example_item.tooltip.summary": "Una breve descripción del elemento. Los puntajes bajos resaltan un término",
-	"item.create.example_item.tooltip.condition1": "Cuando este",
-	"item.create.example_item.tooltip.behaviour1": "Entonces este elemento hace esto. (los comportamientos se muestran en el turno)",
+	"item.create.example_item.tooltip": "EJEMPLO DE OBJETO (sólo un marcador de que este consejo existe)",
+	"item.create.example_item.tooltip.summary": "Una breve descripción del objeto. Los puntajes bajos resaltan un término",
+	"item.create.example_item.tooltip.condition1": "Cuando esto",
+	"item.create.example_item.tooltip.behaviour1": "Entonces este objeto hace esto. (los comportamientos se muestran en el turno)",
 	"item.create.example_item.tooltip.condition2": "Y cuando esto",
 	"item.create.example_item.tooltip.behaviour2": "Puedes añadir tantos comportamientos como quieras",
 	"item.create.example_item.tooltip.control1": "Cuando se pulsa [Ctrl]",
@@ -1231,7 +1231,7 @@
 	"block.create.wooden_bracket.tooltip.summary": "Decora tus _ejes_, _engranajes_ y _ductos_ con un acogedor refuerzo de madera.",
 
 	"block.create.metal_bracket.tooltip": "SOPORTE DE METAL PARA EJES",
-	"block.create.metal_bracket.tooltip.summary": "Decora tus _ejes_, _engranajes_ y _ductos_ con un poco de refuerzo industrial robusto.",
+	"block.create.metal_bracket.tooltip.summary": "Decora tus _ejes_, _engranajes_ y _ductos_ con un poco de robusto refuerzo industrial.",
 
 	"block.create.seat.tooltip": "ASIENTO",
 	"block.create.seat.tooltip.summary": "¡Siéntate y disfruta del viaje! Anclará a un jugador en un artilugio en movimiento. También es ideal para muebles estáticos. Viene en una variedad de colores.",
@@ -1435,13 +1435,13 @@
 	"item.create.minecart_coupling.tooltip.condition1": "Cuando se utiliza en vagonetas",
 	"item.create.minecart_coupling.tooltip.behaviour1": "_Acopla_ dos vagonetas, intentando mantenerlas a una _distancia constante_ mientras se mueven.",
 	
-	"block.create.peculiar_bell.tooltip": "PECULIAR BELL",
-	"block.create.peculiar_bell.tooltip.summary": "A decorative brass bell. Placing it above a _Soul Fire_ or _Soul Campfire_ may cause a spooky transformation to occur...",
+	"block.create.peculiar_bell.tooltip": "CAMPANA PECULIAR",
+	"block.create.peculiar_bell.tooltip.summary": "Una campana decorativa hecha de latón. Colocándolo encima de _fuego de almas_ o de una _fogata de almas_ puede hacer que ocurra una transformación escalofriante...",
 
-	"block.create.cursed_bell.tooltip": "CURSED BELL",
-	"block.create.cursed_bell.tooltip.summary": "A spooky brass bell haunted by lost souls of the Nether.",
-	"block.create.cursed_bell.tooltip.condition1": "When Held or Rang",
-	"block.create.cursed_bell.tooltip.behaviour1": "Highlights nearby dark spots on which Hostile Mobs could spawn.",
+	"block.create.cursed_bell.tooltip": "CAMPANA MALDITA",
+	"block.create.cursed_bell.tooltip.summary": "Una tenebrosa campana de latón maldita por las almas perdidas del Nether.",
+	"block.create.cursed_bell.tooltip.condition1": "Cuando la llevas encima o la haces sonar",
+	"block.create.cursed_bell.tooltip.behaviour1": "Marca los sitios cercanos con zonas oscuras en donde los enemigos pueden generarse naturalmente.",
 
 
 	"_": "->------------------------]  Ponder Content  [------------------------<-",
@@ -1754,18 +1754,18 @@
 	"create.ponder.fan_source.text_2": "Cuando se les da una señal de redstone, los ventiladores comenzarán a proporcionar fuerza",
 	
     "create.ponder.fluid_pipe_flow.header": "Transportar fluidos mediante tuberías de cobre",
-    "create.ponder.fluid_pipe_flow.text_1": "Fluid Pipes can connect two or more fluid sources and targets",
-	"create.ponder.fluid_pipe_flow.text_2": "Using a wrench, a straight pipe segment can be given a window",
-	"create.ponder.fluid_pipe_flow.text_3": "Windowed pipes will not connect to any other adjacent pipe segments",
-	"create.ponder.fluid_pipe_flow.text_4": "Powered by Mechanical Pumps, the Pipes can transport Fluids",
-	"create.ponder.fluid_pipe_flow.text_5": "No fluid is being extracted at first",
-	"create.ponder.fluid_pipe_flow.text_6": "Once the flow connects them, the endpoints gradually transfer their contents",
-	"create.ponder.fluid_pipe_flow.text_7": "Thus, the Pipe blocks themselves never 'physically' contain any fluid",
+    "create.ponder.fluid_pipe_flow.text_1": "Las tuberiías de fluidos se pueden conectar a dos o más entradas y salidas.",
+	"create.ponder.fluid_pipe_flow.text_2": "Usando una llave inglesa, puedes poner una ventana a un segmento de tubería recto.",
+	"create.ponder.fluid_pipe_flow.text_3": "Las tuberías con ventana no se conectarán a tuberías paralelas adyacentes.",
+	"create.ponder.fluid_pipe_flow.text_4": "Alimentadas por bombas mecánicas, las tuberías transportan fluidos.",
+	"create.ponder.fluid_pipe_flow.text_5": "De primeras ningún fluido es extraído.",
+	"create.ponder.fluid_pipe_flow.text_6": "Una vez el flujo está conectado, las entradas y salidas van transfiriendo su contenido gradualmente",
+	"create.ponder.fluid_pipe_flow.text_7": "Por lo tanto, los segmentos de tubería nunca contienen 'físicamente' ningún fluido.",
 
 	"create.ponder.fluid_pipe_interaction.header": "Drenaje y llenado de contenedores de fluidos",
-    "create.ponder.fluid_pipe_interaction.text_1": "Endpoints of a pipe network can interact with a variety of blocks",
-	"create.ponder.fluid_pipe_interaction.text_2": "Any block with fluid storage capabilities can be filled or drained",
-	"create.ponder.fluid_pipe_interaction.text_3": "Source blocks right in front of an open end can be picked up...",
+    "create.ponder.fluid_pipe_interaction.text_1": "Las entradas y salidas de un sistema de tuberías pueden interactuar con una gran variedad de bloques",
+	"create.ponder.fluid_pipe_interaction.text_2": "Cualquier bloque con capacidad de almacenar fluidos puede ser llenado o drenado",
+	"create.ponder.fluid_pipe_interaction.text_3": "El agua que salga por una salida abierta puede ser recogida...",
 	"create.ponder.fluid_pipe_interaction.text_4": "...while spilling into empty spaces can create fluid sources",
 	"create.ponder.fluid_pipe_interaction.text_5": "Pipes can also extract fluids from a handful of other blocks directly",
 	
